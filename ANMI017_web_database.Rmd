@@ -171,7 +171,7 @@ genome_metadata %>%
 genome_counts %>% 
   paged_table()
 
-genome_metadata %>% 
+genome_counts %>% 
   write_tsv("tables/genome_counts.tsv")
 ```
 
